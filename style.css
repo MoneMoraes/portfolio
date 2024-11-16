@@ -154,6 +154,10 @@ html{
     font-style: italic;
 }
 
+.projetos a{
+    text-decoration: none;
+}
+
 .projetos-list{
     width: 100%;
     margin-bottom: 8px;
@@ -162,17 +166,22 @@ html{
     align-items: center;
 }
 
+
 .projetos img{
     width: 22%;
     margin-left: 0.5%;
     margin-right: 0.5%;
+    height: 200px;
     opacity: 0.8;
     transition: 0.9s;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .projetos img:hover{
     opacity: 1;
 }
+
 
 .action{
     background-color: #181818;
@@ -183,6 +192,15 @@ html{
     color: #ffffff;
     margin-top: 18px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.GitHub{
+    max-height: 19px;
+    background-color: #ffffff;
+    margin-bottom: 4px;
 }
 
 /* FIM PROJETOS*/
